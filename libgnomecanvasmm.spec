@@ -1,7 +1,7 @@
 Summary:	C++ wrappers for libgnomecanvas
 Name:		libgnomecanvasmm
 Version:	2.26.0
-Release:	13
+Release:	14
 License:	GPL
 Group:		Libraries
 Source0:	http://ftp.gnome.org/pub/gnome/sources/libgnomecanvasmm/2.26/%{name}-%{version}.tar.bz2
@@ -58,7 +58,6 @@ rm -rf $RPM_BUILD_ROOT
 %files devel
 %defattr(644,root,root,755)
 %attr(755,root,root) %{_libdir}/libgnomecanvasmm*.so
-%{_libdir}/libgnomecanvasmm*.la
 %{_libdir}/%{name}-2.6
 %{_includedir}/%{name}-2.6
 %{_pkgconfigdir}/%{name}-2.6.pc
